@@ -16,7 +16,7 @@ Asset using a total of four Visual Effects Graphs:
 
 * **(Engine)** Asset is using Visual Effects Graph, so it requires GPU Compute Shaders, however, Unity has plans to add CPU simulation
 
-* **(HDRP)** VFX Prefabs for the HDRP version were built with Exposure set to 13.5. Change the Emission Power for darker scenes.
+* **(HDRP)** VFX Prefabs for the HDRP version were built with Exposure set to 9. Change the Emission Power for darker scenes.
 
 * **(HDRP, URP)** This VFX Asset looks much better in "Linear" Color Space, but if you using "Gamma" Color Space, you need to slightly decrease the Final Power (Emission Power) material parameter of each effect. You can check it in the "Edit > Project Settings > Player" TAB.
 * **(HDRP, URP)** Image Effects are necessary in order to make a great-looking game, as well as our asset. Be sure to use "ACES Tone Mapping" and "Bloom".
@@ -25,8 +25,8 @@ Asset using a total of four Visual Effects Graphs:
 
 ### How To Use
 
-* First of all, check the three scenes "DemoScene", "DemoSceneManualVFXSpawnExamples", and "DemoSceneUseCasesAndExamples" in the Scenes folder. The First one contains complete effect compositions. The second one contains an example of how you can call manual VFX Spawn functions for point and mesh Raycast systems. The third one contains various examples of how to use the effects.
-* Read the corresponding docs page on each system to learn how to add the effects to your scene.
+* First of all, check the three scenes "DemoScene", "DemoScene_ScalingExample", and "DemoScene_UseCases" in the Scenes folder. The First one contains complete effect compositions. The second one shows how to scale the effects. The third one contains various examples of how to use the effects.
+* Read the "Quick Start" guide page, as well as "Parameters" to know how to add VFX to your scene and customize it.
 
 
 
