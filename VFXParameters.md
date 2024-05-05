@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mesh Raycast
+title: VFX Parameters
 nav_order: 3
 ---
 
