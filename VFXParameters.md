@@ -50,7 +50,7 @@ Creative Light Script Component:
 * **Material** - Fake Depth material.
 
 ### Holo:
-![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/28646075-63cb-49ac-8663-5e4e663d2e71)
+![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/7b6f0c54-6c98-48bf-8d7e-dd37f4866af4)
 
 VFX Graph:
 * **MASTER** -  These parameters serve as a final layer of adjustments, multiplying parameters by the corresponding value.
