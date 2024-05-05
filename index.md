@@ -6,9 +6,11 @@ nav_order: 1
 
 ## About the Asset
 
-This Asset consists of 4 main Lightning Systems, constructed with a combination of C# script and Visual Effects Graph. Each system is slightly different in workflow, but overall they are pretty similar in terms of how they work. If you want to test the Effects right away, check the quick start pages for each system, they contain quick instructions on how to apply the VFX to your project.
+This VFX Asset consists of many prefabs with two distinct styles. The first style is some form of a heat energy wave, suited for fire-based effects. The second style is holographic, suited for the creation of sci-fi effects. Both effects use custom fake depth material, HDRP version uses Custom Passes on top of it. All effects are created with a Visual Effects Graph, and using an array of renderers to generate the Depth Map from them. You need to set all the meshes you want to be interactable in the editor or via script.
 
-![s20](/assets/images/01.png)
+Asset using a total of four Visual Effects Graphs:
+
+![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/441b5868-05c1-418b-b15b-ec95be6a49d5)
 
 ### Important Notes
 
