@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Point Raycast
+title: Quick Start
 nav_order: 2
 ---
 
