@@ -9,6 +9,7 @@ nav_order: 3
 ![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/965af473-5aa3-4687-aee1-133455bd39af)
 
 ### Heat Wave:
+![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/15c34788-cec5-438e-b758-4e6c58da13e1)
 
 VFX Graph:
 * **MASTER** -  These parameters serve as a final layer of adjustments, multiplying parameters by the corresponding value.
@@ -49,6 +50,7 @@ Creative Light Script Component:
 * **Material** - Fake Depth material.
 
 ### Holo:
+![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/28646075-63cb-49ac-8663-5e4e663d2e71)
 
 VFX Graph:
 * **MASTER** -  These parameters serve as a final layer of adjustments, multiplying parameters by the corresponding value.
