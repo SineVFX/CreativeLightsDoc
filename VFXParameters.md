@@ -8,9 +8,34 @@ nav_order: 3
 
 ![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/965af473-5aa3-4687-aee1-133455bd39af)
 
-* **MASTER** -  These parameters serve as a final layer of adjustments, they just multiply existing parameters by themselves.
-* **Dissolve Noise** - Use Dissolve instead of a regular alpha decay for lightning strips.
-* **Lightning** - This set of parameters controls the color, gradient transitions, and emission power of VFX elements.
+### Heat Wave:
+
+VFX Graph:
+* **MASTER** -  These parameters serve as a final layer of adjustments, multiplying parameters by the corresponding value.
+* **Light Range** - Range of the effect in World Units.
+* **Light Range Exp** - Pow of the effect range, similar to light attenuation.
+* **Spawn Rate** - Rate at which particles are being spawned.
+* **Gradient Ramp** - These parameters control the colorization of the effect.
+* **Gradient Ramp Adjust** - Multiply, Add, and Exp are used to control the gradient ramp mask. Imagine a 0 to 1 mask to generate a Ramp, you can add, multiply, or apply pow operators to it.
+* **Emission Color** - Multiply the Ramp by Color.
+* **Emission Intensity** - Controls the emission intensity of each element separately.
+* **Sparks 01 Initial Expand** - Initial position expand of sparks when they are spawned.
+* **Sparks 01 Velocity and Velocity Offset** - Controls the velocity of sparks.
+* **Sparks 01 Color From Ramp** - Select a color for sparks from the gradient ramp, 0 to 1 range.
+* **Sparks 01 Noise** - Controls the Noise used to add randomness to a particle's spawn, lifetime, and size. By increasing the Exp parameters, you can create a more "streamy" look, and vice versa.
+* **Sparks 01 Turbilence** - Controls the Turbilence of Sparks.
+* **Sparks Light Range Exp Adjust Multiply** - Control the Light Range Exp separately for the sparks. If you want the sparks to be at a more constant emission, use low Exp parameters for this.
+* **Smoke Noise** - Control the noise parameters of smoke particles's texture.
+* Smoke Dissolve Edge Exp - 
+* Heat Edge - 
+* Flames Ramp Affected By OaD -
+* Flames Long Mask Exp -
+* Depth Slope Step Size -
+* Depth Hard Down Edge Distance -
+* Edge Heat Move To Camera -
+* Dissolve Flame Enabled -
+* Dissolve Flame Long Enabled -
+* Soft Particles Distance Adjust Multiply -
  
 Strips:
 * **Strips Texture** - Main texture for lightning strips.
