@@ -7,9 +7,9 @@ nav_order: 2
 ## Quick Start
 
 * Drag And Drop VFX Prefab from the "Assets\SineVFX\CreativeLights\CompleteEffectsPrefabs" folder into your scene.
-* Position the Effect as you see fit, the included Spot Light will help you with it.
+* Position the Effect as you see fit, the included Spot Light will help you with this.
 * Select the prefab parent game object with a "CreativeLight" component.
-* Add all the renderers into a "Renderers" array. These objects will be used to generate a Depth Map for the effect to work.
+* Add all the renderers into a "Renderers" array. These objects will be used to create a depth map for the effect to work.
 * There is an included "DummySphereForDepth" renderer, do not remove it.
 * Select the child game object with VFX Graph and adjust the "MASTER Scale" and "Light Range" parameters as you see fit.
 * ![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/d2cb805b-1738-4cb1-b1f2-74f5d42cda4d)
