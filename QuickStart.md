@@ -6,14 +6,17 @@ nav_order: 2
 
 ## Quick Start
 
-* Drag And Drop VFX Prefab from the "CompleteEffectsPrefabs" folder into your scene.
-* Enable the "Preview Gizmos In Editor" bool in the attached C# script to see the range of the effect.
-* Now you can adjust various parameters to match your project design.
-* There are two modes for this System, Spherical, and Cone. Check the list of the adjustable parameters below.
+* Drag And Drop VFX Prefab from the "Assets\SineVFX\CreativeLights\CompleteEffectsPrefabs" folder into your scene.
+* Position the Effect as you see fit, the included Spot Light will help you with it.
+* Select the prefab parent game object with a "CreativeLight" component.
+* Add all the renderers into a "Renderers" array. These objects will be used to generate a Depth Map for the effect to work.
+* There is an included "DummySphereForDepth" renderer, do not remove it.
+* Select the child game object with VFX Graph and adjust the "MASTER Scale" and "Light Range" parameters as you see fit.
+![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/d2cb805b-1738-4cb1-b1f2-74f5d42cda4d)
+* After that the effect should work properly, for further customization, check the "VFX Parameters" page.
 
-![s20](/assets/images/05.png)
 
-Most of the adjustments come from the Visual Effects Graph parameters and C# script. Many parameters can be changed, you can control the color, speed, overall shape of the strips, noise scale, etc.
+The parameters can be changed in both the "Creative Light" script component and the VFX Graph. The first one controls Resolution, Camera Perspective mode, and Field Of View. The VFX Graph parameters control the visual looks of the effect.
 
 ### Common Adjustments
 
