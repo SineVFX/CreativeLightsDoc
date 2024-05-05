@@ -26,7 +26,7 @@ Asset using a total of four Visual Effects Graphs:
 ### How To Use
 
 * First of all, check the three scenes "DemoScene", "DemoScene_ScalingExample", and "DemoScene_UseCases" in the Scenes folder. The First one contains complete effect compositions. The second one shows how to scale the effects. The third one contains various examples of how to use the effects.
-* Read the "Quick Start" guide page, as well as "Parameters" to know how to add VFX to your scene and customize it.
+* Read the "Quick Start" guide page, as well as "VFX Parameters" to know how to add VFX to your scene and customize it.
 
 
 
