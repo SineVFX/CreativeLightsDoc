@@ -48,6 +48,7 @@ Creative Light Script Component:
 * **Dummy Cam** - Camera used for fake Depth Rendering.
 * **Effect** - VFX Graph of the prefab.
 * **Material** - Fake Depth material.
+* **Update Custom Pass Materials** - Property only available in HDRP. When updating the renderers during gameplay, you need to update them in CustomPass too, it can be done by checking this bool, or by calling the "UpdateCustomPassParameters()" function.
 
 ### Holo:
 ![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/7b6f0c54-6c98-48bf-8d7e-dd37f4866af4)
@@ -93,6 +94,7 @@ Creative Light Script Component:
 * **Dummy Cam** - Camera used for fake Depth Rendering.
 * **Effect** - VFX Graph of the prefab.
 * **Material** - Fake Depth material.
+* **Update Custom Pass Materials** - Property only available in HDRP. When updating the renderers during gameplay, you need to update them in CustomPass too, it can be done by checking this bool, or by calling the "UpdateCustomPassParameters()" function.
 
 
 
