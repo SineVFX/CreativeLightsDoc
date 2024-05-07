@@ -14,6 +14,7 @@ nav_order: 2
 * Select the child game object with VFX Graph and adjust the "MASTER Scale" and "Light Range" parameters as you see fit.
 * ![image](https://github.com/SineVFX/CreativeLightsDoc/assets/37494885/d2cb805b-1738-4cb1-b1f2-74f5d42cda4d)
 * After that the effect should work properly, for further customization, check the "VFX Parameters" page.
+* HDRP Only: If you want to update the renderers during gameplay, check the "Update Custom Pass Materials" bool or call the "UpdateCustomPassParameters()" function.
 
 The parameters can be changed in the "Creative Light" script component and the VFX Graph. The "Creative Light" script component controls Resolution, Camera Perspective mode, and Field Of View. The VFX Graph parameters control the visual looks of the effect.
 
